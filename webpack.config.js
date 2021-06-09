@@ -17,7 +17,7 @@ module.exports = {
                 }
             },
             { //Regla para trabajar con imágenes
-                test: /\.(png|gif|jpg|svg|webp)$/,
+                test: /\.(png|gif|jpg|jpeg|svg|webp)$/,
                 use: [
                 {
                     loader: 'file-loader',
