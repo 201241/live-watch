@@ -28,7 +28,8 @@ module.exports = {
                 ]
             },
             { //Regla para trabajar con CSS
-
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
             }
         ],
     },
